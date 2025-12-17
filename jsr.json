@@ -1,0 +1,10 @@
+{
+  "name": "@madeindjs/listenbrainz-m3u",
+  "version": "1.0.0",
+  "exports": "./lib.mjs",
+  "imports": {
+    "music-metadata-search": "npm:music-metadata-search@^3.0.0"
+  },
+  "compilerOptions": {},
+  "license": "MIT"
+}

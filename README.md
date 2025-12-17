@@ -1,6 +1,7 @@
 # listenbrainz-m3u
 
 [![npm version](https://badge.fury.io/js/listenbrainz-m3u.svg)](https://badge.fury.io/js/listenbrainz-m3u)
+[![jsr version](https://jsr-badge.deno.dev/@madeindjs/listenbrainz-m3u/stable.svg)](https://jsr.io/@madeindjs/listenbrainz-m3u)
 
 Generate M3u playlists from Listenbrainz and your available local files
 
