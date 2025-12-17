@@ -1,0 +1,46 @@
+{
+  "name": "listenbrainz-m3u",
+  "version": "1.0.0",
+  "description": "Generate M3u playlists from Listenbrainz and your available local files",
+  "keywords": [
+    "id3",
+    "m3u",
+    "playlist",
+    "cli",
+    "music",
+    "metadata",
+    "audio",
+    "listenbrainz"
+  ],
+  "homepage": "https://github.com/madeindjs/listenbrainz-m3u",
+  "bugs": {
+    "url": "https://github.com/madeindjs/listenbrainz-m3u/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeindjs/listenbrainz-m3u.git"
+  },
+  "license": "ISC",
+  "author": "Alexandre Rousseau <alexandre@rsseau.fr> (https://rsseau.fr)",
+  "type": "module",
+  "main": "lib.mjs",
+  "bin": {
+    "listenbrainz-m3u-weekly-jam": "cli/weekly-jam.mjs",
+    "listenbrainz-m3u": "cli/playlist.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "music-metadata-search": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}
